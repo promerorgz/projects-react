@@ -10,7 +10,7 @@ function App(props) {
         <div className="App">
             <AppBar color="primary" position="sticky">
                 <Toolbar variant="dense">
-                    <Typography variant="headline" color="inherit">Hello</Typography>
+                    <Typography variant="headline" color="inherit">Projects</Typography>
                 </Toolbar>
             </AppBar>
         </div>
