@@ -17,6 +17,7 @@ const styles = theme => ({
         justifyContent: 'flex-end'
     },
     clientImg: {
+        backgroundColor: theme.palette.primary.main,
         width: 70,
         height: 70
     },
