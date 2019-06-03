@@ -43,12 +43,12 @@ const ProjectCard = ({ classes }) => {
                     alignItems="flex-start"
                 >
                     <Grid item xs className={classes.header}>
-                        <Typography variant='h5'>{projectTitle || 'Project Title'}</Typography>
-                        <Typography variant='h6'>{client || 'Client'}</Typography>
-                        <Typography variant='caption'>{startDate || 'start'} - {endDate || 'end'}</Typography>
+                        <Typography variant="h5">{projectTitle || 'Project Title'}</Typography>
+                        <Typography variant="h6">{client || 'Client'}</Typography>
+                        <Typography variant="caption">{startDate || 'start'} - {endDate || 'end'}</Typography>
                     </Grid>
                     <Grid item xs={3}>
-                        <Avatar className={classes.clientImg} src={clientLogo}>{client.charAt(0)}</Avatar>
+                        <Avatar className={classes.clientImg} src={clientLogo} color="primary">{client.charAt(0)}</Avatar>
                     </Grid>
                 </Grid>
                 <Typography paragraph>{description || 'Bacon ipsum dolor amet turducken t-bone boudin turkey biltong capicola. Jowl pig brisket tail. Frankfurter buffalo pork chop short ribs chicken fatback salami tenderloin porchetta hamburger flank pork loin alcatra. Brisket capicola salami short loin, swine chuck prosciutto fatback pig drumstick. Pastrami beef corned beef kevin shoulder porchetta pork chop tenderloin capicola. Short loin landjaeger jowl fatback.'}</Typography>
